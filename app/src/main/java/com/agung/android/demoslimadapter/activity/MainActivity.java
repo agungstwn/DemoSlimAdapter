@@ -1,7 +1,9 @@
-package com.agung.android.demoslimadapter;
+package com.agung.android.demoslimadapter.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.agung.android.demoslimadapter.R;
 
 public class MainActivity extends AppCompatActivity {
 
