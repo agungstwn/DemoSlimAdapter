@@ -8,12 +8,14 @@ import lombok.Getter;
  */
 
 
-@Getter
-@AllArgsConstructor
 public class ImageRequest {
     private int res;
 
     public ImageRequest(int res) {
         this.res = res;
+    }
+
+    public int getRes() {
+        return res;
     }
 }

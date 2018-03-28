@@ -7,8 +7,6 @@ import lombok.Getter;
  * Created by agung on 27/03/18.
  */
 
-@Getter
-@AllArgsConstructor
 public class UserRequest {
     private String name;
     private int age;
@@ -20,5 +18,21 @@ public class UserRequest {
         this.age = age;
         this.avatarRes = avatarRes;
         this.phone = phone;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getAvatarRes() {
+        return avatarRes;
+    }
+
+    public String getPhone() {
+        return phone;
     }
 }

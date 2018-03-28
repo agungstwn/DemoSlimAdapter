@@ -7,8 +7,6 @@ import lombok.Getter;
  * Created by agung on 27/03/18.
  */
 
-@Getter
-@AllArgsConstructor
 public class MusicRequest {
     private String name;
     private int coverRes;
@@ -16,5 +14,13 @@ public class MusicRequest {
     public MusicRequest(String name, int coverRes) {
         this.name = name;
         this.coverRes = coverRes;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCoverRes() {
+        return coverRes;
     }
 }
